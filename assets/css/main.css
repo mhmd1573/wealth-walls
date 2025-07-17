@@ -933,16 +933,28 @@ section,
   margin-bottom: 0;
 }
 
-.about-img{
-  height: 550px;
-  width: 400px;
+
+@media (min-width: 992px) {  /* Large screens and up */
+  .about-img {
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: auto;
+  }
 }
 
-.about-content{
-  /* padding-top: 70px;
-  padding-left: 80px; */
-  /* margin-left: 10px; */
-  /* border: 1px solid black; */
+/* Ensure the image is full width on smaller screens */
+@media (max-width: 991px) {
+  .about-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-padding {
+    padding-top: 30px;
+  }
 }
 
 /*--------------------------------------------------------------
