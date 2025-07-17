@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Gp Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Gp
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Updated: Aug 15 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+<style>
+
+  .bg-frame {
+  background-image: url('assets/img/photo4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px; /* Adjust as needed */
+  border-radius: 8px; /* Optional */
+  height: 530px;
+}
+
+.popup {
+    display: none; 
+    position: fixed; 
+    top: 0; left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    justify-content: center; 
+    align-items: center;
+  }
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+.popup button {
+    margin-top: 10px;
+  }
+
+button.close-btn {
+    padding: 5px 37px;
+    border: 0px solid black;
+    border-radius: 5px;
+    background-color: #ffc451;
+}
+
+</style>
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <h1 class="sitename">Wealth Walls</h1>
+        <span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+
+<!-- Hero Section -->
+<section id="hero" class="hero section dark-background">
+
+  <img src="assets/img/hero-bg.jpg" alt="Elegant photo frame with currency art" data-aos="fade-in">
+
+  <div class="container">
+
+    <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-xl-6 col-lg-8">
+        <h2>Framing Prosperity & Memories with Style<span>.</span></h2>
+        <p>Unique photo frames adorned with money-inspired art — perfect for gifting, décor, and meaningful moments.</p>
+      </div>
+    </div>
+
+    <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="icon-box">
+          <i class="bi bi-cash"></i>
+          <h3><a href="">Currency Art</a></h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="icon-box">
+          <i class="bi bi-gift"></i>
+          <h3><a href="">Perfect Gifts</a></h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="icon-box">
+          <i class="bi bi-stars"></i>
+          <h3><a href="">Symbol of Wealth</a></h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
+        <div class="icon-box">
+          <i class="bi bi-house-heart"></i>
+          <h3><a href="">Home & Office Decor</a></h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
+        <div class="icon-box">
+          <i class="bi bi-person-check"></i>
+          <h3><a href="">Custom Designs</a></h3>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- Hero Section -->
+
+
+<!-- About Section -->
+<section id="about" class="about section" >
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-4">
+      
+      <div class="col-lg-6 order-1 order-lg-2">
+        <img src="assets/img/image-gpt-2.png" class="img-fluid about-img" alt="Money-decorated photo frame">
+      </div>
+
+      <div class="col-lg-6 order-2 order-lg-1 content about-content">
+        <h3>Where Memories Meet Wealth & Art</h3>
+        <p class="fst-italic">
+          We craft unique photo frames infused with real or replica currency elements – a perfect blend of artistic expression, symbolism, and style.
+        </p>
+        <ul>
+          <li><i class="bi bi-check2-all"></i> <span>Beautiful handcrafted frames featuring decorative currency art.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Ideal for gifting on weddings, birthdays, anniversaries, and business milestones.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Symbolic pieces that reflect wealth, success, and prosperity in an elegant form.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Made with high-quality materials like wood, metal, and eco-friendly elements for durability.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Each frame is a fusion of modern design and timeless craftsmanship.</span></li>
+        </ul>
+
+        <p>
+          Every piece we create is crafted with care, creativity, and cultural inspiration. We believe in celebrating life's most precious moments, whether it’s a wedding, a birthday, or a business achievement. Our photo frames do more than just display your photos—they tell a story of success, joy, and memories that last a lifetime. Whether you're looking to preserve a family heirloom or gift something truly unique, our frames bring a touch of elegance and meaningful symbolism to any space.
+        </p>
+
+
+      </div>
+      
+    </div>
+
+  </div>
+
+</section>
+<!-- /About Section -->
+    
+
+
+<!-- Clients Section -->
+<section id="clients" class="clients section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+</section>
+<!-- /Clients Section -->
+
+
+
+<!-- Features Section -->
+<section id="features" class="features section">
+
+  <div class="container">
+
+    <div class="row gy-4">
+ 
+
+      <div class="features-image col-lg-6 bg-frame" data-aos="fade-up" data-aos-delay="100">
+      <!-- Background image applied via CSS -->
+      </div>
+
+      <div class="col-lg-6" style="padding-top: 40px;">
+
+        <div class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
+          <i class="bi bi-archive flex-shrink-0"></i>
+          <div>
+            <h4>Unique Currency Decor</h4>
+            <p>Each frame is embellished with real or replica currency, symbolizing wealth, luck, and prosperity in a timeless design.</p>
+          </div>
+        </div>
+        <!-- End Features Item-->
+
+        <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
+          <i class="bi bi-basket flex-shrink-0"></i>
+          <div>
+            <h4>Perfect for Every Occasion</h4>
+            <p>Ideal for weddings, birthdays, anniversaries, housewarmings, and business gifts that make a lasting impression.</p>
+          </div>
+        </div>
+        <!-- End Features Item-->
+
+        <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
+          <i class="bi bi-broadcast flex-shrink-0"></i>
+          <div>
+            <h4>Crafted with Care</h4>
+            <p>Hand-assembled with premium materials and an eye for detail — ensuring every frame is a piece of art.</p>
+          </div>
+        </div>
+        <!-- End Features Item-->
+
+        <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
+          <i class="bi bi-camera-reels flex-shrink-0"></i>
+          <div>
+            <h4>Customizable Designs</h4>
+            <p>Personalize your frame with names, photos, or messages for a truly one-of-a-kind gift or decor item.</p>
+          </div>
+        </div>
+        <!-- End Features Item-->
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /Features Section -->
+
+
+
+
+<!-- Services Section -->
+<section id="services" class="services section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Our Services</h2>
+    <p>Explore what we offer to make your frames truly special</p>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Service 1 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-currency-dollar"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Money-Themed Frame Design</h3>
+          </a>
+          <p>Elegant frames featuring real or replica currency elements symbolizing prosperity, abundance, and good fortune.</p>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-gift"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Custom Gift Frames</h3>
+          </a>
+          <p>Customized frames for birthdays, weddings, anniversaries, and corporate gifting — unique, thoughtful, and eye-catching.</p>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-palette"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Personalized Design Service</h3>
+          </a>
+          <p>Send us your idea or photo, and we’ll design a frame that matches your theme, budget, and style with money-inspired art.</p>
+        </div>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <!-- <i class="bi bi-house-door-heart"></i> -->
+            <i class="bi bi-house-door"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Home & Office Decor</h3>
+          </a>
+          <p>Bring charm and character to your walls with frames that blend luxury, culture, and creativity — perfect for any interior.</p>
+        </div>
+      </div>
+
+      <!-- Service 5 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-calendar-heart"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Event & Occasion Orders</h3>
+          </a>
+          <p>Bulk and custom orders for events, parties, giveaways, or festive seasons — add a rich touch to your celebrations.</p>
+        </div>
+      </div>
+
+      <!-- Service 6 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-boxes"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Packaging & Delivery</h3>
+          </a>
+          <p>Carefully packed in elegant boxes and shipped with care to ensure your frame arrives in perfect condition — wherever you are.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<!-- /Services Section -->
+
+
+
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+       <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Check our Portfolio</p>
+      </div> 
+      <!-- End Section Title -->
+
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <!-- Portfolio Filters -->
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-small-frames">Small Frames</li>
+            <li data-filter=".filter-medium-frames">Medium Frames</li>
+            <li data-filter=".filter-full-frames">Full Frames</li>
+            <li data-filter=".filter-car-frames">Car Frames</li>
+          </ul>
+          <!-- End Portfolio Filters -->
+
+          <!-- Portfolio Items Container -->
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- Small Frame 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-small-frames">
+                <img src="assets/img/small-1.jpg" class="img-fluid" alt="Small Frame 1">
+                <div class="portfolio-info">
+                    <h4>Small Frame 1</h4>
+                    <p>A compact and sleek frame design perfect for small spaces.</p>
+                    <a href="assets/img/small-1.jpg" title="Small Frame 1" data-gallery="portfolio-gallery-small-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div>
+
+            <!-- Small Frame 2 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-small-frames">
+                  <img src="assets/img/small-2.jpg" class="img-fluid" alt="Small Frame 2">
+                  <div class="portfolio-info">
+                      <h4>Small Frame 2</h4>
+                      <p>A delicate small frame for showcasing personal photos in a cozy setting.</p>
+                      <a href="assets/img/small-2.jpg" title="Small Frame 2" data-gallery="portfolio-gallery-small-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+            </div>
+
+            <!-- Small Frame 3 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-small-frames">
+                <img src="assets/img/small-3.jpg" class="img-fluid" alt="Small Frame 3">
+                <div class="portfolio-info">
+                    <h4>Small Frame 3</h4>
+                    <p>A simple yet elegant small frame designed for minimalistic decor.</p>
+                    <a href="assets/img/small-3.jpg" title="Small Frame 3" data-gallery="portfolio-gallery-small-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div>
+
+            <!-- Small Frame 4 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-small-frames">
+                <img src="assets/img/small-4.jpg" class="img-fluid" alt="Small Frame 4">
+                <div class="portfolio-info">
+                    <h4>Small Frame 4</h4>
+                    <p>A simple yet elegant small frame designed for minimalistic decor.</p>
+                    <a href="assets/img/small-4.jpg" title="Small Frame 4" data-gallery="portfolio-gallery-small-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div>
+
+            <!-- Small Frame 5 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-small-frames">
+                <img src="assets/img/small-5.jpg" class="img-fluid" alt="Small Frame 5">
+                <div class="portfolio-info">
+                    <h4>Small Frame 5</h4>
+                    <p>A simple yet elegant small frame designed for minimalistic decor.</p>
+                    <a href="assets/img/small-5.jpg" title="Small Frame 5" data-gallery="portfolio-gallery-small-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div>
+
+            <!-- Full Frame 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-full-frames">
+              <img src="assets/img/photo1.jpg" class="img-fluid" alt="Full Frame 1">
+              <div class="portfolio-info">
+                <h4>Full Frame 1</h4>
+                <p>Decorative wooden full-frame with a unique design.</p>
+                <a href="assets/img/photo1.jpg" title="Full Frame 1" data-gallery="portfolio-gallery-full-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+
+            <!-- Full Frame 2 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-full-frames">
+              <img src="assets/img/photo5.jpg" class="img-fluid" alt="Full Frame 2">
+              <div class="portfolio-info">
+                <h4>Full Frame 2</h4>
+                <p>Elegant full-frame for a modern look in any room.</p>
+                <a href="assets/img/photo5.jpg" title="Full Frame 2" data-gallery="portfolio-gallery-full-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+
+              <!-- Full Frame 3 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-full-frames">
+              <img src="assets/img/photo2.jpg" class="img-fluid" alt="Full Frame 3">
+              <div class="portfolio-info">
+                <h4>Full Frame 3</h4>
+                <p>Elegant full-frame for a modern look in any room.</p>
+                <a href="assets/img/photo2.jpg" title="Full Frame 3" data-gallery="portfolio-gallery-full-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+
+            <!-- Medium Frame 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-medium-frames">
+              <img src="assets/img/meduim1.jpg" class="img-fluid" alt="Medium Frame 1">
+              <div class="portfolio-info">
+                <h4>Medium Frame 1</h4>
+                <p>Chic and elegant medium frame to complement any space.</p>
+                <a href="assets/img/meduim1.jpg" title="Medium Frame 1" data-gallery="portfolio-gallery-medium-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+
+            <!-- Medium Frame 2 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-medium-frames">
+              <img src="assets/img/meduim2.jpg" class="img-fluid" alt="Medium Frame 2">
+              <div class="portfolio-info">
+                <h4>Medium Frame 2</h4>
+                <p>Perfectly sized medium frame for your office or living room.</p>
+                <a href="assets/img/meduim2.jpg" title="Medium Frame 2" data-gallery="portfolio-gallery-medium-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+
+              <!-- Medium Frame 3 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-medium-frames">
+              <img src="assets/img/meduim3.jpg" class="img-fluid" alt="Medium Frame 3">
+              <div class="portfolio-info">
+                <h4>Medium Frame 3</h4>
+                <p>Perfectly sized medium frame for your office or living room.</p>
+                <a href="assets/img/meduim3.jpg" title="Medium Frame 2" data-gallery="portfolio-gallery-medium-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+
+              <!-- Medium Frame 4 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-medium-frames">
+              <img src="assets/img/meduim4.jpg" class="img-fluid" alt="Medium Frame 3">
+              <div class="portfolio-info">
+                <h4>Medium Frame 4</h4>
+                <p>Perfectly sized medium frame for your office or living room.</p>
+                <a href="assets/img/meduim4.jpg" title="Medium Frame 4" data-gallery="portfolio-gallery-medium-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+
+              <!-- Medium Frame 5 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-medium-frames">
+              <img src="assets/img/photo3.jpg" class="img-fluid" alt="Medium Frame 5">
+              <div class="portfolio-info">
+                <h4>Medium Frame 5</h4>
+                <p>Perfectly sized medium frame for your office or living room.</p>
+                <a href="assets/img/photo3.jpg" title="Medium Frame 5" data-gallery="portfolio-gallery-medium-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+
+              <!-- Car Frame 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-car-frames">
+              <img src="assets/img/car1.jpg" class="img-fluid" alt="Car Frame 1">
+              <div class="portfolio-info">
+                <h4>Car Frame 1</h4>
+                <p>Custom-made frames for car enthusiasts with a vintage design.</p>
+                <a href="assets/img/car1.jpg" title="Car Frame 1" data-gallery="portfolio-gallery-car-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+
+            <!-- Car Frame 2 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-car-frames">
+              <img src="assets/img/car2.jpg" class="img-fluid" alt="Car Frame 2">
+              <div class="portfolio-info">
+                <h4>Car Frame 2</h4>
+                <p>A unique car-themed frame that makes a statement for enthusiasts.</p>
+                <a href="assets/img/car2.jpg" title="Car Frame 2" data-gallery="portfolio-gallery-car-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+
+              <!-- Car Frame 3 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-car-frames">
+              <img src="assets/img/car-set.jpg" class="img-fluid" alt="Car Frame 2">
+              <div class="portfolio-info">
+                <h4>Car Frame 2</h4>
+                <p>A unique car-themed frame that makes a statement for enthusiasts.</p>
+                <a href="assets/img/car-set.jpg" title="Car Frame 2" data-gallery="portfolio-gallery-car-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+
+              <!-- Car Frame 4 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item isotope-item filter-car-frames">
+              <img src="assets/img/car-set2.jpg" class="img-fluid" alt="Car Frame 2">
+              <div class="portfolio-info">
+                <h4>Car Frame 2</h4>
+                <p>A unique car-themed frame that makes a statement for enthusiasts.</p>
+                <a href="assets/img/car-set2.jpg" title="Car Frame 2" data-gallery="portfolio-gallery-car-frames" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Portfolio Items Container -->
+
+        </div>
+      </div>
+
+</section>
+<!-- /Portfolio Section -->
+
+
+
+
+ <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" alt="Elegant frame background">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Create Something Meaningful Today</h3>
+              <p>Whether you're celebrating a special moment or elevating your decor, our custom money-themed frames make a lasting impression. Choose a design or share your idea — we’ll turn it into a masterpiece.</p>
+              <a class="cta-btn" href="#contact">Get a Custom Frame</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+ <!-- /Call To Action Section -->
+
+
+
+<!-- Stats Section -->
+     <section id="stats" class="stats section">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row gy-4 align-items-center justify-content-between">
+
+            <div class="col-lg-5">
+              <img src="assets/img/image-gpt.png" alt="Luxury Frames" class="img-fluid">
+            </div>
+
+            <div class="col-lg-6">
+
+              <h3 class="fw-bold fs-2 mb-3">Transforming Everyday Luxury Into Timeless Art</h3>
+              <p>
+                At Wealth Wall, we curate frames that embody elegance and luxury. Our collections feature iconic elements like golden coins, rare car keys, and bespoke designs—crafted to elevate your living spaces. Join the growing community of luxury art collectors.
+              </p>
+
+              <div class="row gy-4">
+
+                <div class="col-lg-6">
+                  <div class="stats-item d-flex">
+                    <i class="bi bi-emoji-smile flex-shrink-0"></i>
+                    <div>
+                      <span data-purecounter-start="0" data-purecounter-end="1324" data-purecounter-duration="1" class="purecounter"></span>
+                      <p><strong>Happy Clients</strong> <span>Our customers love bringing luxury into their homes through our one-of-a-kind frames.</span></p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Stats Item -->
+
+                <div class="col-lg-6">
+                  <div class="stats-item d-flex">
+                    <i class="bi bi-journal-richtext flex-shrink-0"></i>
+                    <div>
+                      <span data-purecounter-start="0" data-purecounter-end="198" data-purecounter-duration="1" class="purecounter"></span>
+                      <p><strong>Exclusive Collections</strong> <span>Featuring limited-edition pieces that showcase the finest luxury accessories.</span></p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Stats Item -->
+
+                <div class="col-lg-6">
+                  <div class="stats-item d-flex">
+                    <i class="bi bi-headset flex-shrink-0"></i>
+                    <div>
+                      <span data-purecounter-start="0" data-purecounter-end="3245" data-purecounter-duration="1" class="purecounter"></span>
+                      <p><strong>Hours of Curation</strong> <span>Our team spends countless hours ensuring each frame is a perfect masterpiece.</span></p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Stats Item -->
+
+                <div class="col-lg-6">
+                  <div class="stats-item d-flex">
+                    <i class="bi bi-people flex-shrink-0"></i>
+                    <div>
+                      <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter"></span>
+                      <p><strong>Expert Designers</strong> <span>A dedicated team of luxury designers and curators, working with high-end materials to create your dream frames.</span></p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Stats Item -->
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+     </section>
+<!-- /Stats Section -->
+
+
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials section dark-background">
+
+  <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          }
+        }
+      </script>
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="Customer image">
+            <h3>Saul Goodman</h3>
+            <h4>CEO & Founder, Legal Services</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>“I was truly impressed by the craftsmanship of the custom frames I ordered. Not only did they enhance the decor of my office, but they also add a personal touch that connects with my clients on a deeper level. A fantastic investment!”</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+        <!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="Customer image">
+            <h3>Sara Wilsson</h3>
+            <h4>Senior Designer, Design Studio</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>“As a designer, I'm always looking for unique pieces to showcase in my workspaces. These frames not only match the aesthetic I envision but also carry a deeper meaning that resonates with my clients. Exceptional quality and service!”</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+        <!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Customer image">
+            <h3>Jena Karlis</h3>
+            <h4>Owner, Vintage Boutique</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>“These frames are the perfect touch for my boutique. They elevate the overall vibe of my store and are a great conversation starter. I’m constantly getting compliments from customers who are fascinated by the design and the story behind them.”</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+        <!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="Customer image">
+            <h3>Matt Brandon</h3>
+            <h4>Freelancer, Digital Marketing</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>“I ordered a custom frame as a gift for a close friend, and the reaction was priceless. It was such a meaningful and personal gesture. The quality of the frame exceeded all expectations, and it has become a cherished piece in their home.”</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+        <!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="Customer image">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur, Tech Start-Up</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>“I’ve worked with several designers, but this company’s attention to detail is unparalleled. The custom frames we ordered for our office create a professional yet welcoming environment for our clients. Highly recommend for anyone looking to add a sophisticated touch to their space.”</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+        <!-- End testimonial item -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+</section>
+<!-- /Testimonials Section -->
+
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Contact Us</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+      <!-- Google Map iframe without API key (simpler method) -->
+      <iframe style="border:0; width: 100%; height: 270px;" 
+              src="https://www.google.com/maps?q=Beirut,%20Lebanon&output=embed" 
+              frameborder="0" 
+              allowfullscreen="" 
+              loading="lazy"></iframe>
+    </div>
+    <!-- End Google Maps -->
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4">
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+          <i class="bi bi-geo-alt flex-shrink-0"></i>
+          <div>
+            <h3>Address</h3>
+            <p>Beirut, Lebanon</p>
+          </div>
+        </div><!-- End Info Item -->
+
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+          <i class="bi bi-telephone flex-shrink-0"></i>
+          <div>
+            <h3>Call Us</h3>
+            <p>+961 71 50 90 50</p>
+          </div>
+        </div><!-- End Info Item -->
+
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+          <i class="bi bi-envelope flex-shrink-0"></i>
+          <div>
+            <h3>Email Us</h3>
+            <p>owaiti532@gmail.com</p>
+          </div>
+        </div><!-- End Info Item -->
+
+      </div>
+
+      <div class="col-lg-8">
+        <div class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          <form id="contactForm" onsubmit="return showThankYouMessage(event)">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+              </div>
+
+              <div class="col-md-6">
+                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+              </div>
+
+              <div class="col-md-12">
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+              </div>
+
+              <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+              </div>
+
+              <div class="col-md-12 text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- End Contact Form -->
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /Contact Section -->
+
+
+
+
+<!-- Popup for Thank You -->
+<div id="thankYouPopup" class="popup">
+  <div class="popup-content">
+    <p>Thanks for sending the message!</p>
+    <p>Please contact us on our phone number: <strong>+961 71 50 90 50</strong></p>
+    <button onclick="closePopup()" class="close-btn">Close</button>
+  </div>
+</div>
+
+
+  </main>
+
+
+    <!-- Footer Section -->
+    <footer id="footer" class="footer dark-background">
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 footer-about">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <span class="sitename">Wealth Wall</span>
+              </a>
+              <div class="footer-contact pt-3">
+                <p>123 Luxury Ave</p>
+                <p>New York, NY 10001</p>
+                <p class="mt-3"><strong>Phone:</strong> <span>+1 800 123 4567</span></p>
+                <p><strong>Email:</strong> <span>contact@wealthwall.com</span></p>
+              </div>
+              <div class="social-links d-flex mt-4">
+                <a href="https://twitter.com/WealthWall"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://facebook.com/WealthWall"><i class="bi bi-facebook"></i></a>
+                <a href="https://instagram.com/WealthWall"><i class="bi bi-instagram"></i></a>
+                <a href="https://linkedin.com/company/WealthWall"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="index.html"> Home</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="about.html"> About Us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="shop.html"> Shop Our Frames</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="terms.html"> Terms of Service</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="privacy.html"> Privacy Policy</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="shop.html"> Custom Frame Design</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="shop.html"> Luxury Frame Collections</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="shop.html"> Personalized Embellishments</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="about.html"> About Our Materials</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="services.html"> Customization & Consultation</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-12 footer-newsletter">
+              <h4>Our Newsletter</h4>
+              <p>Stay updated with the latest luxurious frames and exclusive collections at Wealth Wall. Subscribe for special offers and insider news!</p>
+              <form action="forms/newsletter.php" method="post" class="php-email-form">
+                <div class="newsletter-form"><input type="email" name="email" placeholder="Enter your email" required><input type="submit" value="Subscribe"></div>
+                <div class="loading">Loading...</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <div class="container text-center">
+          <p>© <span>Copyright</span> <strong class="px-1 sitename">Wealth Wall</strong> <span>All Rights Reserved</span></p>
+          <div class="credits">
+            Designed by <a href="https://yourdesignagency.com/">Your Design Agency</a> | Powered by <a href="https://yourwebplatform.com/">Your Web Platform</a>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+    <!-- /Footer Section -->
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (window.innerWidth < 768) {
+    const portfolioSwiper = new Swiper('.portfolio-swiper', {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        }
+      }
+    });
+    
+    // Add keyboard control
+    portfolioSwiper.enableKeyboardControl();
+  }
+});
+</script>
+
+<script>
+  function showThankYouMessage(event) {
+    event.preventDefault();  // Prevent the form from actually submitting
+       
+    document.getElementById('contactForm').reset(); // Clear the form fields
+
+    document.getElementById('thankYouPopup').style.display = 'flex';  // Show the popup
+  }
+
+  function closePopup() {
+    document.getElementById('thankYouPopup').style.display = 'none';  // Close the popup
+  }
+</script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
